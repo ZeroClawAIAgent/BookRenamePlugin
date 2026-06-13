@@ -1,0 +1,14 @@
+name: BookRename
+version: '1.0'
+main: com.example.bookrename.BookRename
+api-version: '26'
+description: Rename items with long names using a Book & Quill
+commands:
+  bookrename:
+    description: Start renaming your held item with a book
+    usage: /bookrename
+    permission: bookrename.use
+permissions:
+  bookrename.use:
+    description: Allow renaming items via book
+    default: true
